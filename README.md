@@ -18,9 +18,19 @@ A neutral signal would result in off LEDs or display a neutral color.
 ## Explanation
 The board uses a ATtiny85 to decode the PPM signal and output to a few addressable LEDs.
 
+We chose the ATtiny85 because of it's simplicty and compact package. Also, Georgia Tech's makerspace provides them for free.
+
 The input is 5v and provided by the motor controller.
 
 The outputs are also 5v on all connectors. There is a connector for both PPM and LED out.
+
+## Pinout
+
+Pin 2 is an input pin for the PPM signal. 
+
+Pin 4 is an OUTPUT pin for the address LEDs. 
+Library to drive Pin 4 TBD.
+
 
 ## Schematic and Board layout
 
